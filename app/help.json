@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Métodos de pago aceptados",
+    "descriptions": "Métodos de pago aceptados Tenemos diferentes métodos de pago disponibles en nuestra aplicación Delivery+, estos son: A) Tarjeta de crédito o débito. B) Efectivo. Te recomendamos verificar la información de pago antes de solicitar el pedido, ya que después de hacerlo, no será posible hacer modificaciones."
+  },
+  {
+    "id": 2,
+    "title": "No se puede realizar mi pedido",
+    "descriptions": "No se puede realizar mi pedido Si presentas problemas para realizar un pedido a través de tu aplicación, te sugerimos validar: Que la tienda se encuentre abierta y dentro de tu rango de entrega. Que no tengas un pedido con pago en efectivo en curso o dos mediante pago con tarjeta. Que no hayas superado el límite de efectivo permitido por la aplicación, es decir $900.00 Que el restaurante que seleccionaste acepte pago en efectivo y no sólo pago con tarjeta bancaria."
+  },
+  {
+    "id": 3,
+    "title": "El repartidor no tiene o no regresó cambio",
+    "descriptions": "Para evitar cualquier situación al momento de pagar un pedido en efectivo, en caso de que el usuario repartidor no tenga cambio, te sugerimos no entregarle el dinero en físico. Si es posible, puedes llegar a un acuerdo con él para realizar el pago a través de medios electrónicos.    Ten presente que el acuerdo que hagas con el usuario repartidor para completar el pago no será visible en la aplicación, por lo tanto, Delivery+ no podrá intervenir ante un reclamo. Siempre que pagues con efectivo tus pedidos, te recomendamos tener la cantidad exacta, ya que, por motivos de seguridad, usualmente los usuarios repartidores cuentan con poco dinero en físico."
+  },
+  {
+    "id": 4,
+    "title": "Porque no puedo cancelar un pedido",
+    "descriptions": "Si tienes una orden en curso y está dentro del tiempo estimado de entrega, no se podrá cancelar en las siguientes situaciones. A) Tu pedido esta en preparacion por la tienda y no acepta la cancelación. B) El repartidor va camino a tu destino Recuerda que la cancelación sin cargo de forma automática no es posible, ya que los costos de envio y preparacion deben de ser cubiertos."
+  },
+  {
+    "id": 5,
+    "title": "Tuve problemas y no pude recibir mi pedido",
+    "descriptions": "Dado que los costos de preparación del pedido, y envío deben ser cubiertos, te invitamos a realizar el pago de tu deuda, de esta forma tu cuenta será desbloqueada. Para evitar esta situación en próximas oportunidades, te sugerimos activar tus notificaciones, estar atento a tus mensajes y llamadas, y hacer todo lo posible por recoger tu orden dentro de los 10 minutos desde la llegada del usuario repartidor a la dirección de entrega."
+  },
+  {
+    "id": 5,
+    "title": "Tarifa de Entrega",
+    "descriptions": "Queremos contarte que la tarifa de entrega puede variar dependiendo de los siguientes escenarios: -La distancia que hay de tu ubicación al restaurante. -Las condiciones climáticas que se presenten durante el pedido. -Demanda de pedidos y disponibilidad de repartidores. Puedes verificar el valor de la tarifa de entrega, así: A) En caso de que no hayas realizado el pedido, el valor de la tarifa aparecerá en tu carrito. B) Si el pedido está completado o en curso, podrás evidenciar el valor en los detalles del pedido."
+  },
+  {
+    "id": 6,
+    "title": "Reportar una conducta inapropiada",
+    "descriptions": "Si el repartidor tuvo un comportamiento inapropiado, por favor, compártenos todos los detalles de lo ocurrido a través de nuestro canal telefónico: 981 456 7894, y uno de nuestros asesores realizará el reporte correspondiente lo más pronto posible. Ten presente que no toleramos malas prácticas por parte de ninguno de los repartidores ya sean agresivas, verbales, sexuales o de comportamiento."
+  },
+  {
+    "id": 7,
+    "title": "¿Cómo garantizan la seguridad de mis datos personales?",
+    "descriptions": "Tomamos la seguridad y privacidad de tus datos muy en serio. Implementamos medidas de seguridad avanzadas y cumplimos con las regulaciones de protección de datos para proteger tu información personal. Espero que estas preguntas y respuestas sean útiles para tu Centro de Ayuda en la aplicación de delivery. Recuerda que la información debe estar actualizada y accesible para los usuarios en todo momento."
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "0": [
+    {
+      "id": 1,
+      "descriptions": "Hamburguesa con tocino y papas caseras",
+      "price": "175.0"
+    },
+    {
+      "id": 2,
+      "descriptions": "Boneless de pollo empanizado",
+      "price": "200.0"
+    },
+    {
+      "id": 3,
+      "descriptions": "Hamburguesa con extraqueso",
+      "price": "150.0"
+    },
+    {
+      "id": 4,
+      "descriptions": "Dedos de queso",
+      "price": "195.0"
+    },
+    {
+      "id": 5,
+      "descriptions": "Pack Hamburguesas",
+      "price": "240.0"
+    },
+    {
+      "id": 6,
+      "descriptions": "Hamburguesa de pollo cubierta de queso",
+      "price": "180.0"
+    }
+  ],
+  "1": [
+    {
+      "id": 1,
+      "descriptions": "papas caseras",
+      "price": "000.0"
+    },
+    {
+      "id": 2,
+      "descriptions": "pollo empanizado",
+      "price": "000.0"
+    },
+    {
+      "id": 3,
+      "descriptions": "Hamburguesa con extraqueso",
+      "price": "000.0"
+    },
+    {
+      "id": 4,
+      "descriptions": "Dedos de queso",
+      "price": "000.0"
+    },
+    {
+      "id": 5,
+      "descriptions": "Pack Hamburguesas",
+      "price": "000.0"
+    },
+    {
+      "id": 6,
+      "descriptions": "Hamburguesa de pollo cubierta de queso",
+      "price": "000.0"
+    }
+  ],
+  "2": [
+    {
+      "id": 1,
+      "descriptions": "papas caseras con mayonesa",
+      "price": "000.0"
+    },
+    {
+      "id": 2,
+      "descriptions": "pollo empanizado",
+      "price": "000.0"
+    },
+    {
+      "id": 3,
+      "descriptions": "Hamburguesa con extraqueso",
+      "price": "000.0"
+    },
+    {
+      "id": 4,
+      "descriptions": "Dedos de queso",
+      "price": "000.0"
+    },
+    {
+      "id": 5,
+      "descriptions": "Pack Hamburguesas",
+      "price": "000.0"
+    },
+    {
+      "id": 6,
+      "descriptions": "Hamburguesa de pollo cubierta de queso",
+      "price": "000.0"
+    }
+  ]
+}
