@@ -36,3 +36,8 @@ class transferenciasSelializer(serializers.ModelSerializer):
     class Meta:
         models = models.Transferencias
         fields = '__all__'
+
+class notificationSelializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Notification
+        fields = '__all__'

@@ -12,6 +12,7 @@ router.register(r'order', views.pedidoView) # pedido
 router.register(r'orderDetail', views.detallePedidoView) # detalles pedido 
 router.register(r'dealers', views.repartidoresView) # repartidores 
 router.register(r'transfers', views.tranferenciasView) # transferencias
+router.register(r'notification', views.notificationView) # notificaciones
 
 urlpatterns=[
     path('api/v1/', include(router.urls)),

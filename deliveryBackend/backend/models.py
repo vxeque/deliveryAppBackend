@@ -276,6 +276,9 @@ class Restaurantes(models.Model):
         db_column="Direccion", max_length=100, blank=True, null=True
     )  # Field name made lowercase.
 
+    def __str__(self):
+        return self.nombre
+
     class Meta:
         managed = False
         db_table = "restaurantes"
@@ -301,3 +304,33 @@ class Transferencias(models.Model):
     class Meta:
         managed = False
         db_table = "transferencias"
+
+
+
+class Notification(models.Model):
+    notification_id = models.AutoField(primary_key=True)
+    notification_description = models.CharField(max_length=500)
+    notification_id_restaurante = models.ForeignKey('Restaurantes', models.DO_NOTHING, db_column='notification_ID_restaurante', blank=True, null=True)  # Field name made lowercase.
+    notification_title = models.CharField(max_length=50, blank=True, null=True)
+    notication_date = models.DateTimeField(blank=True, null=True)
+
+    
+    def __str__(self):
+        return self.notification_title
+
+    class Meta:
+        managed = False
+        db_table = 'notification'
+
+# class Notification(models.Model):
+#     notification_id = models.AutoField(primary_key=True)
+#     notification_description = models.CharField(max_length=500)
+#     notification_id_restaurante = models.ForeignKey('Restaurantes', models.DO_NOTHING, db_column='notification_ID_restaurante', blank=True, null=True)  # Field name made lowercase.
+#     notification_title = models.CharField(max_length=50, blank=True, null=True)
+
+#     def __str__(self):
+#         return self.notification_title
+        
+#     class Meta:
+#         managed = False
+#         db_table = 'notification'

@@ -149,6 +149,18 @@ class DjangoSession(models.Model):
         db_table = 'django_session'
 
 
+class Notification(models.Model):
+    notification_id = models.AutoField(primary_key=True)
+    notification_description = models.CharField(max_length=500)
+    notification_id_restaurante = models.ForeignKey('Restaurantes', models.DO_NOTHING, db_column='notification_ID_restaurante', blank=True, null=True)  # Field name made lowercase.
+    notification_title = models.CharField(max_length=50, blank=True, null=True)
+    notication_date = models.DateTimeField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'notification'
+
+
 class Pedido(models.Model):
     id_pedido = models.IntegerField(db_column='ID_Pedido', primary_key=True)  # Field name made lowercase.
     clienteid = models.ForeignKey(Cliente, models.DO_NOTHING, db_column='clienteID', blank=True, null=True)  # Field name made lowercase.

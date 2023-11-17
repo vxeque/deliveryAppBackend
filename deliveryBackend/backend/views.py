@@ -34,4 +34,7 @@ class tranferenciasView(viewsets.ModelViewSet):
     serializer_class = serializer.transferenciasSelializer
     queryset = models.Transferencias.objects.all()
 
+class notificationView(viewsets.ModelViewSet): 
+    serializer_class = serializer.notificationSelializer
+    queryset = models.Notification.objects.all()
 
