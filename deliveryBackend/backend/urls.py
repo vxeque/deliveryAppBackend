@@ -16,5 +16,6 @@ router.register(r'notification', views.notificationView) # notificaciones
 
 urlpatterns=[
     path('api/v1/', include(router.urls)),
+    # path('api/v1/client/username/<str:username>', include(router.urls)),
     path('docs/', include_docs_urls(title='delivery+'))
 ]

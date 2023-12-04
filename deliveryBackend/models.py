@@ -86,6 +86,8 @@ class Cliente(models.Model):
     telefono = models.CharField(max_length=10)
     correo_electronico = models.CharField(db_column='Correo_Electronico', max_length=50)  # Field name made lowercase.
     numero_bancario = models.CharField(db_column='Numero_Bancario', max_length=20, blank=True, null=True)  # Field name made lowercase.
+    username = models.CharField(max_length=50, blank=True, null=True)
+    password = models.CharField(max_length=50, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -184,6 +186,8 @@ class Productos(models.Model):
     categoria = models.CharField(max_length=50, blank=True, null=True)
     precio = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
     restauranteid = models.ForeignKey('Restaurantes', models.DO_NOTHING, db_column='RestauranteID')  # Field name made lowercase.
+    direccion_img = models.CharField(max_length=500, blank=True, null=True)
+    imagen = models.CharField(max_length=2000, blank=True, null=True)
 
     class Meta:
         managed = False

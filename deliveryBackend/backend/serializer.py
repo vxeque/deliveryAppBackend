@@ -34,7 +34,7 @@ class repartidoresSelializer(serializers.ModelSerializer):
 
 class transferenciasSelializer(serializers.ModelSerializer):
     class Meta:
-        models = models.Transferencias
+        model = models.Transferencias
         fields = '__all__'
 
 class notificationSelializer(serializers.ModelSerializer):
